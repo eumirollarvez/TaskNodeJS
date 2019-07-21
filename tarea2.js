@@ -1,5 +1,6 @@
 // 0 - Domingo ... 6 Sabado
 var calendario = require("node-schedule");
+
 calendario.scheduleJob({
     hour: 16,
     minute: 50,
